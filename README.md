@@ -16,7 +16,7 @@ from splitwords import Splitter
 import re
 
 splitter = Splitter(languages=['vi', 'en', 'teencode'])
-paragraph = "Chất liệudẻo. Màu sắcđen đen. Dép đẹp lắm luônn ạ. Miksăn được k thikquá tr"
+paragraph = "Chất liệudẻo. Màu sắcđen đen. Dép đẹp lắm luônn ạ. Miksăn được k thikquá tr. shipperthân thiện"
 
 sentence_ls = []
 pat = re.compile(r"([.()!])")
@@ -37,5 +37,5 @@ print(new_paragraph)
 ```
 Expected output:
 ```bash
-chất liệu dẻo . màu sắc đen đen . dép đẹp lắm luôn n ạ . mik săn được k thik quá tr 
+chất liệu dẻo . màu sắc đen đen . dép đẹp lắm luôn n ạ . mik săn được k thik quá tr . shipper thân thiện
 ```
