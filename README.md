@@ -1,5 +1,5 @@
-# convert-to-word-level
-Implementation of tools helps to convert rect of sentence-level and phrase-level to word-level by using linear interpolation.
+# Split words
+Implementation of tools helps to convert the rect of sentence-level and phrase-level to word-level by using linear interpolation.
 
 
 ## Installation
