@@ -1,8 +1,14 @@
-import setuptools
+from setuptools import setup, find_packages
 
-setuptools.setup(
-    version='0.0.1',
-    packages=setuptools.find_packages(exclude=['test']),
-    python_requires='>=3.7',
-    install_requires=[],
+setup(
+    name="splitwords",
+    version="0.0.3",
+    packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        "splitwords.dicts": ["dicts/*.txt"],
+    },
+    install_requires=[
+        "numpy",
+    ],
 )
